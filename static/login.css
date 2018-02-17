@@ -1,14 +1,18 @@
 #login-container {
   width: 400px;
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  margin: auto;
+  /* position: absolute; */
+  /* transform: translate(-50%,-50%); */
   background-color:white;
   border-radius:5%;
   padding:20px;
 }
-
+.img-responsive {
+  display: inline-block;
+}
+h1 {
+  color:white;
+}
 button {
   margin-top:5%;
   width: 100%;
@@ -17,6 +21,6 @@ button {
 }
 
 body {
-  background-color: #252222;
+  background-color: #323845;
 }
 

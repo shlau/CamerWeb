@@ -18,7 +18,8 @@ app.config['MYSQL_CURSORCLASS']='DictCursor'
 
 @app.route('/home')
 def homepage():
-    return 'SUCCESS'
+    return render_template('home.html')
+    
 @app.route('/', methods = ['POST','GET'])
 def login():
     if(request.method == 'POST'):
