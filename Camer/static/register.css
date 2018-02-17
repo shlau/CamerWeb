@@ -1,0 +1,21 @@
+#register-container {
+    width: 400px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:white;
+    border-radius:5%;
+    padding:20px;
+  }
+  
+  button {
+    margin-top:5%;
+    width: 100%;
+    background-color:lightblue;
+    text: bold;
+  }
+  
+  body {
+    background-color: #252222;
+  }
